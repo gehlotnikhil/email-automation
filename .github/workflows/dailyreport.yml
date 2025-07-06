@@ -2,7 +2,7 @@ name: Daily Email Sender (Node)
 
 on:
   schedule:
-    - cron: '55 7 * * *'  # 1:25 PM IST
+    - cron: '*/5 * * * *'  # 1:25 PM IST
   workflow_dispatch:
 
 jobs:
